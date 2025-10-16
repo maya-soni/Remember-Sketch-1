@@ -29,47 +29,6 @@ function mouseMoved() {
   redraw()
 }
 
-// function keyPressed() {
-//   if( key === 'c' ) {
-//     background(220)
-//     positions = []
-//   }
-  
-  
-//   if( key === 'w') {
-//     for( let w of positions ) {
-//       // templating string
-//       console.log( `${w.x},${w.y}`)
-//     }
-//   }
-  
- 
-//   if( key === 'm' ) {
-//     background(220)
-//     drawings.push(positions)
-//     positions = []
-//     redraw()    
-//   } 
-  
-  
-//   if( key === 'a' ) {
-//     drawCurrentDrawing()
-//   }
-  
-  
-//   if( keyIsDown(UP_ARROW) ) {
-//     drawingToDraw++
-//     drawCurrentDrawing()
-//   }
-  
-  
-//   if( keyIsDown(DOWN_ARROW) ) {
-//     drawingToDraw--
-//     drawCurrentDrawing()
-//   }
-// }
-
-
 function drawCurrentDrawing() {
   if( drawings.length > 0 ) {
     background(220)    
